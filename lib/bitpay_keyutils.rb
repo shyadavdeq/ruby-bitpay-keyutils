@@ -3,8 +3,8 @@
 libdir = File.dirname(__FILE__)
 $LOAD_PATH.unshift(libdir) unless $LOAD_PATH.include?(libdir)
 
-require_relative 'bitpay/keyutils_version'
-require_relative 'bitpay/keyutils'
+require 'bitpay/keyutils_version'
+require 'bitpay/ruby_keyutils'
 
 module Bitpay
 

@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require 'dotenv/load'
-require 'bitpay/keyutils'
+require 'bitpay/ruby_keyutils'
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

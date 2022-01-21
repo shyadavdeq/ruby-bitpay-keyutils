@@ -1,15 +1,15 @@
 # frozen_string_literal: true
 
-RSpec.describe Bitpay::Keyutils do
+RSpec.describe Bitpay::RubyKeyutils do
 
-  let(:key_utils) { Bitpay::Keyutils }
+  let(:key_utils) { Bitpay::RubyKeyutils }
 
   let(:pem) { ENV['PEM'] }
 
   let(:sin) { ENV['CLIENT_ID'] }
 
   it "has a version number" do
-    expect(Bitpay::Keyutils).not_to be nil
+    expect(Bitpay::RubyKeyutils).not_to be nil
   end
 
   describe '.generate_pem' do
